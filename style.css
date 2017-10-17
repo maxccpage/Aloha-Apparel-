@@ -1,0 +1,391 @@
+header {
+	height: 3.125em;
+}
+
+header img {
+	padding-left: 1.25em;
+	padding-top: 0.3125em;
+	height: 6.25em;
+	width: 12.50em;
+}
+
+ul {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 18.75em;
+	text-align: center;	
+}
+
+ul li {
+	display: inline;
+}
+
+li { 
+	display: inline;
+	text-decoration: none;
+	padding: .2em 1em;
+	color: red;
+	font-family: 'Raleway', sans-serif; 
+	font-weight: lighter;
+	font-size: 1em;
+ }
+
+#two {
+	height: 4.062em;
+	width: 4.062em;
+	margin: auto;
+	padding-left: 20.3125em;
+}
+
+#background { 
+	background: url('./images/banner-girl.png'),url('./images/flower-bkgd.jpg');
+	background-repeat: no-repeat;
+	background-color: (150,150,150);
+	height: 25em;
+	width: auto;
+	margin-top: 4.687em;
+	background-size: 10%, 100%;
+	background-position: center bottom;
+ }
+
+section div {
+	text-align: center;
+	padding-top: 7.5em;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif; 
+	font-weight: lighter;
+	color: #ffffff;
+	font-size: 2.5em;
+}
+
+h6 { 
+	font-family:'Raleway', sans-serif; 
+	font-weight: lighter;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+h2 { 
+	font-family:'Raleway', sans-serif; 
+	font-weight: lighter;
+	font-size: 1.875em;
+	text-align: center;
+	padding-top: 0.625em;
+}
+
+.firstparagraph p { 
+	font-family:'Raleway', sans-serif; 
+	font-weight: lighter;
+	color: #2d2d2d;
+	padding-right: 18.75em;
+	padding-left: 18.75em;
+	text-align: center;
+	font-size: 1em;
+	padding-bottom: 1.125em;
+	 }
+
+.categories {  
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+	padding-top: 0.625em;
+ }
+
+.mens {
+	background-image: url('./images/mens-category.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 18.75em;
+	width: 49%; 
+	border: 0.125em solid white;
+
+}
+
+.trends {
+	background-image: url('./images/trends-category.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 25%;
+	border: 0.125em solid white;
+}
+
+.glasses {
+	background-image: url('./images/glasses-category.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 25%;
+	border: 0.125em solid white;
+}
+
+.sale {
+	background-image: url('./images/sale-category.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 25%;
+	border: 0.125em solid white;
+}
+
+.bags {
+	background-image: url('./images/bags-category.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 25%;
+	border: 0.125em solid white;
+}
+
+.womens {
+	background-image: url('./images/womens-category.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 49%;
+	height: 18.75em;
+	border: 0.125em solid white;
+	padding-bottom: 1.25em;
+}
+
+.categories div {
+	font-family:'Raleway', sans-serif; 
+	font-weight: lighter;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.products h5 {
+	color: #2d2d2d;
+	font-family:'Raleway', sans-serif; 
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+.products h3 {
+	color: red;
+	font-family: 'Playfair Display', serif; 
+	font-weight: lighter;
+	text-align: center;
+}
+
+.products {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 12.5em;
+}
+
+.strechdress {
+	width: 50%;
+	height: 18.75em;
+}
+
+.hipsterbackpack {
+	width: 50%;
+	height: 18.75em;
+}
+
+.overallshorts {
+	width: 50%;
+	height: 18.75em;
+}
+
+.dotteddress {
+	width: 50%;
+	height: 18.75em;
+}
+
+.wave {
+	background-image: url('./images/wave-bkgd.jpg');
+	background-size: 100%;
+	height: 18.75em;
+	width: 100%;
+	background-position: bottom;
+}
+
+.signup {
+	color: white;
+	padding-top: 1.25em;
+
+}
+
+div p {
+	font-family:'Raleway', sans-serif; 
+	font-weight: lighter;
+	color: white;
+	padding-right: 18.75em;
+	padding-left: 18.75em;
+	text-align: center;
+	font-size: 1em;
+	}
+
+footer { 
+	display: flex;
+	background-color: #2d2d2d;
+	padding-top: 0.312em;
+	justify-content: space-between;
+ }
+
+ footer p {
+ 	text-align: left;
+
+ }
+
+form {
+	padding-top: 1.25em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.thepill {
+	width: 20.312em;
+	background-color: white;
+	border-radius: 1.875em;
+	height: 2.5em;
+	padding-left: 0.9em;
+	padding-top: 0.2em;
+}
+
+input {
+	border: none;
+	outline: none;
+	width: 60%;
+	height: 1.25em;
+	margin: 0.5em;
+	padding-right: 2em;
+}
+
+button {
+	width: 8em;
+	font-family:'Raleway', sans-serif; 
+	color: white;
+	background-color: #e2574c;
+	border-radius: 1.875em;
+	border-style: solid;
+	border-color: transparent;
+	height: 3.25em;
+	padding-top: 0.25em;
+	padding-left: 0.6em;
+
+}
+
+.info h4 {
+	text-align: left;
+	font-family:'Playfair Display', serif; 
+	font-weight: lighter;
+	color: white;
+	font-size: 0.75em;
+	margin: 1.25em;
+
+}
+
+.address h4 {
+	color: grey;
+}
+
+.social { 
+	padding-top: 1.25em;
+	display: flex;
+	flex-direction: column;
+
+ }
+
+a {
+	margin: 1.875em;
+	font-size: 0.75em;
+	color: white;
+	font-family:'Raleway', sans-serif; 
+	text-decoration: none;
+}
+
+.fb a::before {
+	content: "\f230";
+	color: white;
+	font-family: fontawesome;
+	padding-right: 0.312em;
+}
+
+.fb {
+	padding-bottom: 0.312em;
+}
+
+.tw a::before {
+	content:"\f081";
+	color: white;
+	font-family: fontawesome;
+	padding-right: 0.312em;
+}
+
+.tw {
+	padding-bottom: 0.312em;
+}
+
+.insta a::before {
+	content:"\f16d";
+	color: white;
+	font-family: fontawesome;
+	padding-right: 0.312em;
+}
+.insta {
+	padding-bottom: 0.312em;
+}
+
+.pin a::before {
+	content:"\f0d3";
+	color: white;
+	font-family: fontawesome;
+	padding-right: 0.312em;
+}
+
+.pin {
+	padding-bottom: 0.312em;
+}
+
+.gplus a::before {
+	content:"\f0d4";
+	color: white;
+	font-family: fontawesome;
+	padding-right: 0.312em;
+} 
+
+.gplus {
+	padding-bottom: 0.312em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! Font Rights Below */
+
+/*! Generated by Font Squirrel (https://www.fontsquirrel.com) on October 4, 2017 */
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('playfairdisplay-regular-webfont.eot');
+    src: url('playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff'),
+         url('playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*! Done with font stuff */ 
+
+

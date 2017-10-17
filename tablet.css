@@ -1,0 +1,281 @@
+@media screen and (min-width: 600px) {
+	
+.logo {
+	width: 25%;
+	padding-right: 1rem;
+}
+
+.cart {
+	width: 8%;
+	padding-top: .5rem;
+}
+
+ul {
+	padding-top: 2rem;
+}
+
+li {
+	font-size: 1rem;
+}
+
+.mens {
+	height: 8.7rem; 
+	width: 49%; 
+}
+
+.trends {
+	height: 9rem; 
+	width: 24%;
+	border-left: .25rem solid white;
+}
+
+.glasses {
+	height: 9rem; 
+	width: 24%;
+	border-left: .25rem solid white; 
+}
+
+.sale {
+	height: 9rem;
+	width: 24%
+}
+
+.bags {
+	height: 9rem;
+	width: 24%;
+	border-left: .25rem solid white;
+}
+
+.womens {
+	height: 9rem;
+	width: 49%;
+	border-left: .25rem solid white;
+}
+
+.categories h2 {
+	padding-top: 2.9rem;
+	font-size: 1rem;
+}
+
+.double {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.bx-wrapper img {
+    margin: 0 auto;
+}
+
+.bxslider li h4 {
+	font-family: 'railwayregular';
+	color: #969696;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.bxslider li h5 {
+	color: #e2574c;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.thepill {
+	width: 48%;
+}
+
+
+.info h4 {
+	text-align: left;
+	font-family:'Playfair Display', serif; 
+	font-weight: lighter;
+	color: white;
+	font-size: 0.75em;
+	margin: 1.25em;
+}
+
+.address h4 {
+	color: grey;
+}
+
+footer {
+	display: flex;
+	height: 8rem;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-bottom: 1rem;
+} 
+
+.info {
+	flex: 5;
+}
+
+span {
+	display: inline;
+}
+
+.social div a {
+	font-size: 0.75em;
+	color: white;
+	font-family:'Raleway', sans-serif; 
+	text-decoration: none;
+}
+
+}
+
+@media screen and (min-width: 1240px) {
+	
+	.logo {
+	width: 15%;
+	padding-right: 1rem;
+}
+
+.cart {
+	width: 4.5%;
+	padding-top: .5rem;
+}
+
+ul {
+	padding-top: 2rem;
+}
+
+li {
+	font-size: 1.25rem;
+}
+
+.background h6 {
+	font-size: 1.25rem;
+	line-height: 0;
+	padding-top: 8rem;
+}
+
+.background h1 {
+	font-size: 2.25rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+.firstparagraph {
+	font-size: 1.25rem;
+	margin-right: 17rem;
+	margin-left: 17rem;
+}
+
+.mens {
+	height: 15rem;
+	width: 48%;
+	background-position: center bottom;
+}
+
+.trends {
+	height: 15rem; 
+	width: 24%;
+	background-position: center;
+	border-left: .5rem solid white;
+}
+
+.glasses { 
+	height: 15rem;
+	width: 24%;
+	background-position: center;
+	border-left: .5rem solid white;
+}
+
+.sale {
+	height: 15rem;
+	width: 24%;
+	background-position: center;
+	border-top: .5rem solid white;
+}
+
+.bags {
+	height: 15rem;
+	width: 24%;
+	background-position: center;
+	border-left: .5rem solid white;
+	border-top: .5rem solid white;
+}
+
+.womens {
+	height: 15rem;
+	width: 49%;
+	background-position: center;
+	border-left: .5rem solid white;
+	border-top: .5rem solid white;
+}
+
+.double {
+	font-size: 2rem;
+}
+
+.categories h2 { 
+	font-size: 2.5rem;
+	padding-top: 4.25rem;
+ }
+
+.wave {
+	height: 17rem;
+}
+
+.signup h2 {
+	padding-top: 2.75rem;
+	font-size: 2rem;
+}
+
+.blurb p {
+	font-size: 1.25rem;
+	margin-right: 17rem;
+	margin-left: 17rem;
+}
+
+.thepill {
+	width: 35%;
+}
+
+input {
+	margin-left: 2rem;
+}
+
+footer {
+	height: 16rem;
+}
+
+.info h4 {
+	font-size: 1rem;
+	padding-top: 1.25rem;
+}
+
+.info {
+	flex: 7;
+}
+
+.social div a {
+	font-size: 1rem;
+}
+
+.fb {
+	padding-bottom: 1rem;
+}
+
+.tw {
+	padding-bottom: 1rem;
+}
+
+.insta {
+	padding-bottom: 1rem;
+}
+
+.pin {
+	padding-bottom: 1rem;
+}
+
+}
+
+
+
