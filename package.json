@@ -1,0 +1,19 @@
+{
+  "name": "aloha-part-i-master",
+  "version": "1.0.0",
+  "description": "Non-responsive desktop version of Aloha",
+  "main": "intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxccpage/Aloha-Part-II.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxccpage/Aloha-Part-II/issues"
+  },
+  "homepage": "https://github.com/maxccpage/Aloha-Part-II#readme"
+}

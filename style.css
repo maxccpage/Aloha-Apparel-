@@ -1,5 +1,6 @@
 header {
 	height: 3.125em;
+	display: flex;
 }
 
 header img {
@@ -10,22 +11,16 @@ header img {
 }
 
 ul {
-	display: inline;
 	list-style-type: none;
-	margin: 0;
-	padding-left: 18.75em;
 	text-align: center;	
 }
 
 ul li {
-	display: inline;
 }
 
 li { 
-	display: inline;
 	text-decoration: none;
-	padding: .2em 1em;
-	color: red;
+	color: blue;
 	font-family: 'Raleway', sans-serif; 
 	font-weight: lighter;
 	font-size: 1em;
